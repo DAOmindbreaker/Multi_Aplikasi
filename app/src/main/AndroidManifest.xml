@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.cloudidev.islamic">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+            android:allowBackup="true"
+            android:icon="@mipmap/islmaic0"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/islmaic0"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".Activity_Main">
+
+        </activity>
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+                android:theme="@style/AppTheme.NoActionBar"
+                android:name=".ActivityAsmaulHusnaDetail" />
+
+        <activity
+                android:name=".ListSurahActivity"/>
+        <activity
+                android:name=".ListVerseActivity"/>
+
+        <activity
+                android:name=".Activity_Jadwal"
+                android:theme="@style/ThemeJadwal" />
+        <activity
+                android:name=".Activity_Halal"
+                android:theme="@style/ThemeHalal" />
+        <activity
+                android:name=".Activity_AsmaulHusna"
+                android:theme="@style/ThemeAsmaul" />
+        <activity
+                android:name=".Activity_Kajian"
+                android:theme="@style/ThemeKajian" />
+        <activity
+                android:name=".Activity_Map"
+                android:theme="@style/ThemeMap" />
+        <meta-data
+                android:name="com.google.android.geo.API_KEY"
+                android:value="@string/google_maps_key"/>
+        <activity
+                android:name=".Activity_Barcode"
+                android:theme="@style/ThemeBarcode" />
+        <activity
+                android:name=".Activity_Rating"
+                android:theme="@style/ThemeReview" />
+        <activity
+                android:name=".Activity_Baca"
+                android:theme="@style/ThemeBaca">
+
+        </activity>
+    </application>
+
+</manifest>

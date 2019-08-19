@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="tv_nama_produk" type="id" />
+    <item name="tv_nama_produsen" type="id" />
+    <item name="tv_nomor_sertifikat" type="id" />
+    <item name="tv_berlaku" type="id" />
+    <item name="btn_bagikan" type="id" />
+    <item name="fab" type="id" />
+    <item name="map" type="id" />
+
+    <item name="bottomNavigationView" type="id" />
+</resources>
